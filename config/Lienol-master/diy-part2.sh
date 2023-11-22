@@ -27,6 +27,7 @@ echo "DISTRIB_SOURCECODE='Lienol'" >>package/base-files/files/etc/openwrt_releas
 
 # Add luci-app-passwall
 #git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages.git passwall_packages
+git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall_packages
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
 
 # coolsnowwolf default software package replaced with Lienol related software package
